@@ -8,12 +8,6 @@
 -   Describe the uses of `forEach`, `map`, `filter`, and `reduce`
 -   Describe the uses of `every` and `some`
 
-## Instructions
-Let's set up a simple development environment:
-
-1. Create a directory called js-array-methods in your sandbox directory.
-2. Inside of it create an index.html file and a script.js file.
-3. Add boilerplate to index.html, link the script, then add a console.log to the script to make sure everything is wired up properly.
 
 ## Framing & Review
 
@@ -99,7 +93,7 @@ Functions always return a value, either...
    `undefined`.
 
 ```js
-// in a repl, like the chrome console
+// in a repl
 console.log('hello!');
 // 'hello!'
 // => undefined
@@ -532,14 +526,14 @@ Taking the array of instructor objects below, create map functions that do the f
 ```javascript
 const instructors = [
 	{
-		name: 'Carlos',
-		location: 'New Jersey',
+		name: 'Will',
+		location: 'Dorchester',
 		likes: ['Python', 'Bitcoin', 'software engineering']
 	}, 
 	{
-		name: 'Jennifer',
-		location: 'Boston',
-		likes: ['dogs', 'software development', 'piano']
+		name: 'Jeremy',
+		location: 'New York',
+		likes: ['The Godfather', 'software development', 'piano']
 	}, 
 	{
 		name: 'Tabitha',
@@ -547,8 +541,8 @@ const instructors = [
 		likes: ['dogs', 'design', 'software engineering']
 	},
 	{
-		name: 'Esin',
-		location: 'Austin', 
+		name: 'Elektra',
+		location: 'Conneticut', 
 		likes: ['coffee', 'tacos', 'yoga']
 	}
 ]
@@ -608,8 +602,7 @@ function **returns true** when called on each item.
 
 #### Practice with Arrays of Objects
 
-Use either your `script.js` file you've been working in or open
-[repl.it](https://repl.it/languages/javascript).
+Use  your `script.js` file you've been working with"
 
 -   Declare a variable `states`.
 -   Assign to it the array of objects from `capitals.json` in this repo.
@@ -785,7 +778,7 @@ const containLetterC = nachoIngredients.some(ingredient => ingredient.includes('
 
 ### Practice On Your Own:
 
--   Minions Callback Array Methods [Lab](https://git.generalassemb.ly/sei-921/callback-array-methods-lab)
+-   Minions Callback Array Methods [Lab](https://git.generalassemb.ly/seir-1130/callback-array-methods-lab)
 
 -   Need a challenge? Try this [CodeWars](https://www.codewars.com/kata/coding-meetup-number-2-higher-order-functions-series-greet-developers) kata that covers array methods that use higher-order functions.
 
