@@ -531,19 +531,19 @@ const instructors = [
 		likes: ['Python', 'Bitcoin', 'software engineering']
 	}, 
 	{
-		name: 'Jeremy',
-		location: 'New York',
-		likes: ['The Godfather', 'software development', 'piano']
+		name: 'Billie',
+		location: 'Los Angelos',
+		likes: ['Coffee', 'software development', 'video games']
 	}, 
 	{
-		name: 'Tabitha',
-		location: 'Boston',
-		likes: ['dogs', 'design', 'software engineering']
+		name: 'Jurgen',
+		location: 'Chicago',
+		likes: ['skateboarding', 'software engineering', 'psychedilic rock']
 	},
 	{
-		name: 'Elektra',
-		location: 'Conneticut', 
-		likes: ['coffee', 'tacos', 'yoga']
+		name: 'Paresh',
+		location: 'Chicago', 
+		likes: ['Javascript', 'dogs', 'golf']
 	}
 ]
 ```
