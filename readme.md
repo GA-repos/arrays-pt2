@@ -774,7 +774,7 @@ const containLetterC = nachoIngredients.some(ingredient => ingredient.includes('
 
 ### Practice On Your Own:
 
--   Minions Callback Array Methods [Lab](https://git.generalassemb.ly/seir-1130/callback-array-methods-lab)
+-   Minions Callback Array Methods [Lab](https://git.generalassemb.ly/Flex-322/callback-array-methods-lab)
 
 -   Need a challenge? Try this [CodeWars](https://www.codewars.com/kata/coding-meetup-number-2-higher-order-functions-series-greet-developers) kata that covers array methods that use higher-order functions.
 
