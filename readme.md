@@ -404,7 +404,7 @@ let capLetters = letters.forEach(letter => {
 console.log(capLetters);
 // => undefined
 console.log(letters);
-// ["A", "B", "C"]
+// ["a", "b", "c"]
 ```
 
 Let's step up the `.forEach` example a bit.
@@ -522,35 +522,35 @@ const numbers = [
 
 ### More Map Practice - Mapping over an array of objects
 
-Taking the array of instructor objects below, create map functions that do the following: 
+Taking the array of Pokemon objects below, create map functions that do the following: 
 ```javascript
-const instructors = [
+const pokemon = [
 	{
-		name: 'Will',
-		location: 'Dorchester',
-		likes: ['Python', 'Bitcoin', 'software engineering']
+		name: 'Pikachu',
+		type: 'Electric',
+		moves: ['Growl', 'ThunderShock', 'Thunder Wave', 'Quick Attack']
 	}, 
 	{
-		name: 'Billie',
-		location: 'Los Angelos',
-		likes: ['Coffee', 'software development', 'video games']
+		name: 'Charmander',
+		type: 'Fire',
+		moves: ['Growl', 'Scratch', 'Ember', 'SmokeScreen']
 	}, 
 	{
-		name: 'Jurgen',
-		location: 'Chicago',
-		likes: ['skateboarding', 'software engineering', 'psychedilic rock']
+		name: 'Squirtle',
+		type: 'Water',
+		moves: ['Tackle', 'Tail Whip', 'Water Gun', 'Withdraw']
 	},
 	{
-		name: 'Paresh',
-		location: 'Chicago', 
-		likes: ['Javascript', 'dogs', 'golf']
+		name: 'Blubasaur',
+		type: 'Grass', 
+		moves: ['Growl', 'Takle', 'Vine Whip', 'Growth']
 	}
 ]
 ```
-- return an array called `greetings` that contains a personalized greeting: 'Hello `name`!'
-- return an array called `likeBetter` that asks which they like better, their first or second like: 'Do you like `first like` or `second like` better?
+- return an array called `iChooseYou` that contains a personalized greeting: 'I Choose you `name`!'
+- return an array called `favoritetMoves` that asks which move they like better : 'Do you like `first move`,`second move`, `third move` or `fourth move` better?
 
-**Challenge**: Can you use `.forEach()` to add a `greeting` property to each instructor object in the instructors array that greets them by their name? 
+**Challenge**: Can you use `.forEach()` to add a `greeting` property to each pokemon object in the pokkemon array that greets them by their name? 
 
 ### Filter
 
