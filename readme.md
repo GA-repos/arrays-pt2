@@ -284,14 +284,10 @@ We'll use the following array for the next few examples:
 
 ```js
 const words = [
-	'hello',
-	'this',
-	'is',
-	'a',
-	'stickup',
-	'gimme',
-	'your',
-	'wallet'
+	'happy',
+	'birthday',
+	'to',
+	'you'
 ];
 ```
 
@@ -419,7 +415,7 @@ words.forEach(word => {
 });
 
 console.log(newWords);
-// ​​​​​[ 'HELLO', 'THIS', 'IS', 'A', 'STICKUP', 'GIMME', 'YOUR', 'WALLET' ]​​​​​
+// ​​​​​[ 'HAPPY', 'BIRTHDAY', 'TO', 'YOU' ]​​​​​
 ```
 
 Cool, so we can iterate through a list of words and create a new list from it,
