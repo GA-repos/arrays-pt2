@@ -219,7 +219,7 @@ let arr = [
   3
 ];
 
-console.log(arr[1]());
+console.log(arr\[1\]());
 </code>
 
 </details>
