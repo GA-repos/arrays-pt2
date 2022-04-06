@@ -458,7 +458,7 @@ function makeUpperCase(word) {
 const uppercaseWords = words.map(makeUpperCase);
 
 console.log(uppercaseWords);
-// ​​​​​[ 'HELLO', 'THIS', 'IS', 'A', 'STICKUP', 'GIMME', 'YOUR', 'WALLET' ]
+// ​​​​​[ 'HAPPY', 'BIRTHDAY', 'TO', 'YOU' ]
 ```
 
 Lovely! So let's refactor it now.
