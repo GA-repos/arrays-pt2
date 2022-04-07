@@ -537,7 +537,7 @@ const pokemon = [
 		moves: ['Tackle', 'Tail Whip', 'Water Gun', 'Withdraw']
 	},
 	{
-		name: 'Blubasaur',
+		name: 'Bulbasaur',
 		type: 'Grass', 
 		moves: ['Growl', 'Takle', 'Vine Whip', 'Growth']
 	}
